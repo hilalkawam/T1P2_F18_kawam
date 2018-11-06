@@ -1,0 +1,14 @@
+echo "Please enter your name"
+read name
+echo "Please enter your a sentence containing he"
+
+
+read he
+var=$(echo $he | tr "{a-z}" "{A-Z}")
+ # {a-z} Matches a through z
+ # {A-Z} matches A through Z
+echo $var
+
+
+
+
